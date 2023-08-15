@@ -13,6 +13,7 @@ namespace WindowAppWithDatabase
         [STAThread]
         static void Main()
         {
+            //Jitendra Kumar Lines
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new RabbitMqReceiveData());
